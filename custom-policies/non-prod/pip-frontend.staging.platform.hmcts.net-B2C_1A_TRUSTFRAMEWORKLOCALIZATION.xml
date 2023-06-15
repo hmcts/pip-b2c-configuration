@@ -246,6 +246,7 @@
           <LocalizedString ElementType="ClaimType" ElementId="VerificationCode" StringId="DisplayName">Verification Code test</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfVerificationFailedNoRetry">Test You have exceeded maximum number of verification attempts.</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfVerificationFailedRetryAllowed">Test The verification has failed, please try again.</LocalizedString>
+          <LocalizedString ElementType="UxElement" StringId="initial_intro">Test Please provide the following details.</LocalizedString>
         </LocalizedStrings>
       </LocalizedResources>
       <!-- Edit profile sign-in page English-->
