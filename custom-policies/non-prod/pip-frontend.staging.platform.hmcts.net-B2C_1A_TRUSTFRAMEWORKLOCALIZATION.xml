@@ -203,7 +203,7 @@
         <LocalizedStrings>
           <LocalizedString ElementType="ClaimType" ElementId="emailAddress" StringId="DisplayName">Cyfeiriad e-bost</LocalizedString>
           <LocalizedString ElementType="ClaimType" ElementId="email" StringId="UserHelpText">Email address that can be used to contact you.</LocalizedString>
-          <LocalizedString ElementType="ClaimType" ElementId="email" StringId="PatternHelpText">Please enter a valid email address.</LocalizedString>
+          <LocalizedString ElementType="ClaimType" ElementId="email" StringId="PatternHelpText">Rhowch gyfeiriad e-bost dilys.</LocalizedString>
           <LocalizedString ElementType="ClaimType" ElementId="newPassword" StringId="DisplayName">Test New Password</LocalizedString>
           <LocalizedString ElementType="ClaimType" ElementId="newPassword" StringId="UserHelpText">Enter new password</LocalizedString>
           <LocalizedString ElementType="ClaimType" ElementId="newPassword" StringId="PatternHelpText">Test Password does not match required format.</LocalizedString>

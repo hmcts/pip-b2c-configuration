@@ -20,6 +20,13 @@
       "StringId": "DisplayName",
       "Override": true,
       "Value": "Cyfeiriad e-bost"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "email",
+      "StringId": "PatternHelpText",
+      "Override": true,
+      "Value": "Rhowch gyfeiriad e-bost dilys."
     }
   ]
 }
