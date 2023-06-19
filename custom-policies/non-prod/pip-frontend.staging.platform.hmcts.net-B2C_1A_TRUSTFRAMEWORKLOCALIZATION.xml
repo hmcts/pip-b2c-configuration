@@ -204,26 +204,26 @@
           <LocalizedString ElementType="ClaimType" ElementId="emailAddress" StringId="DisplayName">Cyfeiriad e-bost</LocalizedString>
           <LocalizedString ElementType="ClaimType" ElementId="email" StringId="UserHelpText">Email address that can be used to contact you.</LocalizedString>
           <LocalizedString ElementType="ClaimType" ElementId="email" StringId="PatternHelpText">Rhowch gyfeiriad e-bost dilys.</LocalizedString>
-          <LocalizedString ElementType="ClaimType" ElementId="newPassword" StringId="DisplayName">Test New Password</LocalizedString>
+          <LocalizedString ElementType="ClaimType" ElementId="newPassword" StringId="DisplayName">Cyfrinair Newydd</LocalizedString>
           <LocalizedString ElementType="ClaimType" ElementId="newPassword" StringId="UserHelpText">Enter new password</LocalizedString>
-          <LocalizedString ElementType="ClaimType" ElementId="newPassword" StringId="PatternHelpText">Test Password does not match required format.</LocalizedString>
-          <LocalizedString ElementType="ClaimType" ElementId="reenterPassword" StringId="DisplayName">Test Confirm New Password</LocalizedString>
-          <LocalizedString ElementType="ClaimType" ElementId="reenterPassword" StringId="UserHelpText">Test Confirm new password</LocalizedString>
-          <LocalizedString ElementType="ClaimType" ElementId="reenterPassword" StringId="PatternHelpText">Test Password does not match required format.</LocalizedString>
-          <LocalizedString ElementType="UxElement" StringId="error_passwordEntryMismatch">Test The password entry fields do not match. Please enter the same password in both fields and try again.</LocalizedString>
-          <LocalizedString ElementType="UxElement" StringId="error_fieldIncorrect">Test One or more fields are filled out incorrectly. Please check your entries and try again.</LocalizedString>
-          <LocalizedString ElementType="UxElement" StringId="button_continue">Continue test</LocalizedString>
-          <LocalizedString ElementType="UxElement" StringId="button_cancel">Cancel test</LocalizedString>
+          <LocalizedString ElementType="ClaimType" ElementId="newPassword" StringId="PatternHelpText">Nid yw’r cyfrinair yn cyd-fynd â’r fformat angenrheidiol.</LocalizedString>
+          <LocalizedString ElementType="ClaimType" ElementId="reenterPassword" StringId="DisplayName">Cadarnhau cyfrinair newydd</LocalizedString>
+          <LocalizedString ElementType="ClaimType" ElementId="reenterPassword" StringId="UserHelpText">Cadarnhau cyfrinair newydd</LocalizedString>
+          <LocalizedString ElementType="ClaimType" ElementId="reenterPassword" StringId="PatternHelpText">Nid yw’r cyfrinair yn cyd-fynd â’r fformat angenrheidiol.</LocalizedString>
+          <LocalizedString ElementType="UxElement" StringId="error_passwordEntryMismatch">Nid yw’r hyn yr ydych wedi ei roi yn y ddau flwch yn cyfateb. Rhowch yr un cyfrinair yn y ddau flwch a rhoi cynnig arall arni.</LocalizedString>
+          <LocalizedString ElementType="UxElement" StringId="error_fieldIncorrect">Mae un neu fwy o feysydd wedi’u llenwi’n anghywir. Gwiriwch eich ceisiadau a rhowch gynnig arall arni.</LocalizedString>
+          <LocalizedString ElementType="UxElement" StringId="button_continue">Parhau</LocalizedString>
+          <LocalizedString ElementType="UxElement" StringId="button_cancel">Canslo</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfClaimsPrincipalDoesNotExist">Something went wrong. Please contact an administrator.</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfClaimsTransformationBooleanValueIsNotEqual">Your account has been locked. Contact your support person to unlock it, then try again.</LocalizedString>
           <LocalizedString ElementType="UxElement" StringId="required_field">This information is required.</LocalizedString>
           <LocalizedString ElementType="UxElement" StringId="ver_but_edit">Change e-mail</LocalizedString>
-          <LocalizedString ElementType="UxElement" StringId="ver_but_resend">Send new code</LocalizedString>
-          <LocalizedString ElementType="UxElement" StringId="ver_but_send">Send verification code</LocalizedString>
-          <LocalizedString ElementType="UxElement" StringId="ver_but_verify">Verify code</LocalizedString>
+          <LocalizedString ElementType="UxElement" StringId="ver_but_resend">Anfon cod newydd</LocalizedString>
+          <LocalizedString ElementType="UxElement" StringId="ver_but_send">Anfon cod dilysu</LocalizedString>
+          <LocalizedString ElementType="UxElement" StringId="ver_but_verify">Dilysu’r cod</LocalizedString>
           <LocalizedString ElementType="UxElement" StringId="ver_fail_code_expired">Mae'r cod hwnnw wedi dod i ben. Gofynnwch am god newydd.</LocalizedString>
           <LocalizedString ElementType="UxElement" StringId="ver_fail_no_retry">You've made too many incorrect attempts. Please try again later.</LocalizedString>
-          <LocalizedString ElementType="UxElement" StringId="ver_fail_retry">That code is incorrect. Please try again.</LocalizedString>
+          <LocalizedString ElementType="UxElement" StringId="ver_fail_retry">Mae'r cod yna'n anghywir. Rhowch gynnig arall arni.</LocalizedString>
           <LocalizedString ElementType="UxElement" StringId="ver_fail_server">We are having trouble verifying your email address. Please enter a valid email address and try again.</LocalizedString>
           <LocalizedString ElementType="UxElement" StringId="ver_fail_throttled">There have been too many requests to verify this email address. Please wait a while, then try again.</LocalizedString>
           <LocalizedString ElementType="UxElement" StringId="ver_info_msg">Verification code has been sent to your inbox. Please copy it to the input box below.</LocalizedString>
@@ -238,17 +238,16 @@
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfMissingRequiredElement">Missing required element: {0}</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfValidationError">Error in validation by: {0}</LocalizedString>
           <!-- The fields below in this section have been added separately and are not part of the defaults-->
-          <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="success_send_code_msg">Test 5 If you have entered a valid email address, we will send you an email with a verification code to enter below and then reset your password.</LocalizedString>
-          <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="but_send_code">Send verification codes test</LocalizedString>
-          <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="but_verify_code">Verify code test</LocalizedString>
-          <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="but_send_new_code">Send new code test</LocalizedString>
-          <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="success_verify_code_msg">Test The code has been verified. You can now continue.</LocalizedString>
-          <LocalizedString ElementType="ClaimType" ElementId="VerificationCode" StringId="DisplayName">Verification Code test</LocalizedString>
-          <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfVerificationFailedNoRetry">Test You have exceeded maximum number of verification attempts.</LocalizedString>
-          <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfVerificationFailedRetryAllowed">Test The verification has failed, please try again.</LocalizedString>
+          <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="success_send_code_msg">Os ydych wedi nodi cyfeiriad e-bost dilys, byddwn yn anfon e-bost atoch gyda chod dilysu i’w nodi isod ac yna ailosod eich cyfrinair.</LocalizedString>
+          <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="but_send_code">Anfon cod dilysu</LocalizedString>
+          <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="but_verify_code">Dilysu’r cod</LocalizedString>
+          <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="but_send_new_code">Anfon cod newydd</LocalizedString>
+          <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="success_verify_code_msg">Mae’r cod wedi’i ddilysu. Nawr gallwch barhau.</LocalizedString>
+          <LocalizedString ElementType="ClaimType" ElementId="VerificationCode" StringId="DisplayName">Cod dilysu</LocalizedString>
+          <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfVerificationFailedNoRetry">Rydych chi wedi mynd heibio’r nifer o ymdrechion dilysu a ganiateir.</LocalizedString>
+          <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfVerificationFailedRetryAllowed">Mae’r dilysu wedi methu, rhowch gynnig arall arni.</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfChallengeExpired">Mae'r cod hwnnw wedi dod i ben. Gofynnwch am god newydd.</LocalizedString>
-
-          <LocalizedString ElementType="UxElement" StringId="initial_intro">Test Please provide the following details.</LocalizedString>
+          <LocalizedString ElementType="UxElement" StringId="initial_intro">Rhowch y manylion canlynol.</LocalizedString>
         </LocalizedStrings>
       </LocalizedResources>
       <!-- Edit profile sign-in page English-->
