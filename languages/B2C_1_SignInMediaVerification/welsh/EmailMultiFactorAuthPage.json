@@ -4,7 +4,7 @@
       "ElementType": "ClaimType",
       "ElementId": "ReadOnlyEmail",
       "StringId": "DisplayName",
-      "Override": false,
+      "Override": true,
       "Value": "Cyfeiriad e-bost"
     },
     {

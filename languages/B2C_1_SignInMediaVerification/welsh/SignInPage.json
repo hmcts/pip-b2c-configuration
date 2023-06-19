@@ -61,6 +61,13 @@
       "StringId": "DisplayName",
       "Override": true,
       "Value": "Cyfrinair"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "button_signin",
+      "Override": true,
+      "Value": "Mewngofnodi"
     }
   ]
 }
