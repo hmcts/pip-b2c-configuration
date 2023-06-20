@@ -77,7 +77,7 @@
           <LocalizedString ElementType="UxElement" StringId="divider_title">OR</LocalizedString>
           <LocalizedString ElementType="UxElement" StringId="createaccount_intro">Don't have an account?</LocalizedString>
           <LocalizedString ElementType="UxElement" StringId="unknown_error">We are having trouble signing you in. Please try again later.</LocalizedString>
-          <!-- Uncomment the remember_me only if the keep me signed in is activated. 
+          <!-- Uncomment the remember_me only if the keep me signed in is activated.
           <LocalizedString ElementType="UxElement" StringId="remember_me">Keep me signed in</LocalizedString> -->
           <LocalizedString ElementType="ClaimsProvider" StringId="FacebookExchange">Facebook</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="ResourceOwnerFlowInvalidCredentials">Your password is incorrect.</LocalizedString>
@@ -160,7 +160,7 @@
       <!-- Password reset page English-->
       <LocalizedResources Id="api.localaccountpasswordreset.en">
         <LocalizedStrings>
-          <LocalizedString ElementType="ClaimType" ElementId="emailAddress" StringId="DisplayName">Email Address</LocalizedString>
+          <LocalizedString ElementType="ClaimType" ElementId="email" StringId="DisplayName">Email Address</LocalizedString>
           <LocalizedString ElementType="ClaimType" ElementId="email" StringId="UserHelpText">Email address that can be used to contact you.</LocalizedString>
           <LocalizedString ElementType="ClaimType" ElementId="email" StringId="PatternHelpText">Please enter a valid email address.</LocalizedString>
           <LocalizedString ElementType="ClaimType" ElementId="newPassword" StringId="DisplayName">New Password</LocalizedString>
