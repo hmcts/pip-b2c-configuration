@@ -216,7 +216,7 @@
           <LocalizedString ElementType="UxElement" StringId="button_cancel">Canslo</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfClaimsPrincipalDoesNotExist">Something went wrong. Please contact an administrator.</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfClaimsTransformationBooleanValueIsNotEqual">Your account has been locked. Contact your support person to unlock it, then try again.</LocalizedString>
-          <LocalizedString ElementType="UxElement" StringId="required_field">This information is required.</LocalizedString>
+          <LocalizedString ElementType="UxElement" StringId="required_field">Mae angen yr wybodaeth hon.</LocalizedString>
           <LocalizedString ElementType="UxElement" StringId="ver_but_edit">Change e-mail</LocalizedString>
           <LocalizedString ElementType="UxElement" StringId="ver_but_resend">Anfon cod newydd</LocalizedString>
           <LocalizedString ElementType="UxElement" StringId="ver_but_send">Anfon cod dilysu</LocalizedString>

@@ -104,6 +104,13 @@
       "StringId": "button_continue",
       "Override": true,
       "Value": "Parhau"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "required_field",
+      "Override": true,
+      "Value": "Mae angen yr wybodaeth hon."
     }
   ]
 }
