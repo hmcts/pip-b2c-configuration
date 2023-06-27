@@ -73,7 +73,7 @@
         </Metadata>
       </ContentDefinition>
       <ContentDefinition Id="api.localaccountpasswordreset">
-        <LoadUri>https://pipsssaprod.blob.core.windows.net/b2c-custom-policy-files/reset-pw.html</LoadUri>
+        <LoadUri>https://pipsssaprod.blob.core.windows.net/b2c-custom-policy-files/reset-pw-{Culture:RFC5646}.html</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.1.7</DataUri>
         <Metadata>
