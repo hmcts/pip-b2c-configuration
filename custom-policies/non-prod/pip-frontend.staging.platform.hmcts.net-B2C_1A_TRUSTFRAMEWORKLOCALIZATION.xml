@@ -199,7 +199,7 @@
           <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="success_send_code_msg">If you have entered a valid email address, we will send you an email with a verification code to enter below and then reset your password. This code will expire after 20 minutes.</LocalizedString>
           <!-- The fields below in this section have been added separately and are not part of the defaults-->
           <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="but_send_code">Send code</LocalizedString>
-          <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfSessionDoesNotExist">You have exceeded the maximum number of verification attempts.</LocalizedString>
+          <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfSessionDoesNotExist">This code has expired. Please click the 'Send new code' link below.</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfMaxRetryAttempted">You have exceeded the maximum number of verification attempts.</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfInvalidCode">The verification has failed, please try again.</LocalizedString>
         </LocalizedStrings>
