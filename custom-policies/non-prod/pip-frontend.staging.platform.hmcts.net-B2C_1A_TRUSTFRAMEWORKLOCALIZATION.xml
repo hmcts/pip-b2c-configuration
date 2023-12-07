@@ -253,7 +253,7 @@
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfVerificationFailedRetryAllowed">Mae’r dilysu wedi methu, rhowch gynnig arall arni.</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfChallengeExpired">Mae'r cod hwnnw wedi dod i ben. Gofynnwch am god newydd.</LocalizedString>
           <LocalizedString ElementType="UxElement" StringId="initial_intro">Rhowch y manylion canlynol.</LocalizedString>
-          <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfSessionDoesNotExist">Rydych chi wedi mynd heibio’r nifer o ymdrechion dilysu a ganiateir.</LocalizedString>
+          <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfSessionDoesNotExist">Mae’r cod hwn wedi dod i ben, Cliciwch ar y ddolen ‘Anfon cod newydd’ isod.</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfMaxRetryAttempted">Rydych chi wedi mynd heibio’r nifer o ymdrechion dilysu a ganiateir.</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfInvalidCode">Mae’r dilysu wedi methu, rhowch gynnig arall arni.</LocalizedString>
         </LocalizedStrings>
