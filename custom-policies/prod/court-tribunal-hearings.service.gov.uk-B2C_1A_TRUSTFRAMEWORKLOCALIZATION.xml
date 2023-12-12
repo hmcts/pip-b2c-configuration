@@ -201,7 +201,9 @@
           <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="but_send_code">Send code</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfSessionDoesNotExist">This code has expired. Please click the 'Send new code' link below.</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfMaxRetryAttempted">You have exceeded the maximum number of verification attempts.</LocalizedString>
-          <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfInvalidCode">The verification has failed, please try again.</LocalizedString>        </LocalizedStrings>
+          <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfMaxNumberOfCodeGenerated">You have exceeded the number of code generation attempts allowed.</LocalizedString>
+          <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfInvalidCode">The verification has failed, please try again.</LocalizedString>
+        </LocalizedStrings>
       </LocalizedResources>
       <LocalizedResources Id="api.localaccountpasswordreset.cy">
         <LocalizedStrings>
@@ -254,6 +256,7 @@
           <LocalizedString ElementType="UxElement" StringId="initial_intro">Rhowch y manylion canlynol.</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfSessionDoesNotExist">Mae’r cod hwn wedi dod i ben, Cliciwch ar y ddolen ‘Anfon cod newydd’ isod.</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfMaxRetryAttempted">Rydych chi wedi mynd heibio’r nifer o ymdrechion dilysu a ganiateir.</LocalizedString>
+          <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfMaxNumberOfCodeGenerated">Rydych wedi croesi’r trothwy o ran y nifer o gynigion a ganiateir ar gyfer cynhyrchu cod.</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfInvalidCode">Mae’r dilysu wedi methu, rhowch gynnig arall arni.</LocalizedString>
         </LocalizedStrings>
       </LocalizedResources>
