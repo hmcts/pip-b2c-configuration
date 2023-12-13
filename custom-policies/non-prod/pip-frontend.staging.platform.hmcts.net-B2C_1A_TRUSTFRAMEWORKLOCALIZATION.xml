@@ -196,7 +196,7 @@
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfInvalidInput">{0} has invalid input.</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfMissingRequiredElement">Missing required element: {0}</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfValidationError">Error in validation by: {0}</LocalizedString>
-          <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="success_send_code_msg">If you have entered a valid email address, we will send you an email with a verification code to enter below and then reset your password. This code will expire after 20 minutes.</LocalizedString>
+          <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="success_send_code_msg">If you have entered a valid email address, we will send you an email with a verification code to enter below and then reset your password. This code will expire after 10 minutes.</LocalizedString>
           <!-- The fields below in this section have been added separately and are not part of the defaults-->
           <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="but_send_code">Send code</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfSessionDoesNotExist">This code has expired. Please click the 'Send new code' link below.</LocalizedString>
@@ -244,7 +244,7 @@
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfMissingRequiredElement">Missing required element: {0}</LocalizedString>
           <LocalizedString ElementType="ErrorMessage" StringId="UserMessageIfValidationError">Error in validation by: {0}</LocalizedString>
           <!-- The fields below in this section have been added separately and are not part of the defaults-->
-          <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="success_send_code_msg">Os ydych wedi nodi cyfeiriad e-bost dilys, byddwn yn anfon e-bost atoch gyda chod dilysu i’w nodi isod ac yna ailosod eich cyfrinair. Bydd y cod hwn yn weithredol am 20 munud.</LocalizedString>
+          <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="success_send_code_msg">Os ydych wedi nodi cyfeiriad e-bost dilys, byddwn yn anfon e-bost atoch gyda chod dilysu i’w nodi isod ac yna ailosod eich cyfrinair. Bydd y cod hwn yn weithredol am 10 munud.</LocalizedString>
           <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="but_send_code">Anfon cod</LocalizedString>
           <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="but_verify_code">Dilysu’r cod</LocalizedString>
           <LocalizedString ElementType="DisplayControl" ElementId="emailVerificationControl" StringId="but_send_new_code">Anfon cod newydd</LocalizedString>
