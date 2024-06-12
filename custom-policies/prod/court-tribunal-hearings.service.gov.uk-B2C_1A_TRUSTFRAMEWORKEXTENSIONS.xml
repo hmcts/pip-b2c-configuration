@@ -6,94 +6,12 @@
   <BuildingBlocks>
     <ContentDefinitions>
       <!-- This content definition is to render an error page that displays unhandled errors. -->
-      <ContentDefinition Id="api.error">
-        <LoadUri>~/tenant/templates/AzureBlue/exception.cshtml</LoadUri>
-        <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
-        <DataUri>urn:com:microsoft:aad:b2c:elements:contract:globalexception:1.2.1</DataUri>
-        <Metadata>
-          <Item Key="DisplayName">Error page</Item>
-        </Metadata>
-      </ContentDefinition>
-      <ContentDefinition Id="api.idpselections">
-        <LoadUri>~/tenant/templates/AzureBlue/idpSelector.cshtml</LoadUri>
-        <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
-        <DataUri>urn:com:microsoft:aad:b2c:elements:contract:providerselection:1.2.1</DataUri>
-        <Metadata>
-          <Item Key="DisplayName">Idp selection page</Item>
-          <Item Key="language.intro">Sign in</Item>
-        </Metadata>
-      </ContentDefinition>
-      <ContentDefinition Id="api.idpselections.signup">
-        <LoadUri>~/tenant/templates/AzureBlue/idpSelector.cshtml</LoadUri>
-        <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
-        <DataUri>urn:com:microsoft:aad:b2c:elements:contract:providerselection:1.2.1</DataUri>
-        <Metadata>
-          <Item Key="DisplayName">Idp selection page</Item>
-          <Item Key="language.intro">Sign up</Item>
-        </Metadata>
-      </ContentDefinition>
-      <ContentDefinition Id="api.signuporsignin">
-        <LoadUri>~/tenant/templates/AzureBlue/unified.cshtml</LoadUri>
-        <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
-        <DataUri>urn:com:microsoft:aad:b2c:elements:contract:unifiedssp:2.1.5</DataUri>
-        <Metadata>
-          <Item Key="DisplayName">Signin and Signup</Item>
-        </Metadata>
-      </ContentDefinition>
-      <ContentDefinition Id="api.phonefactor">
-        <LoadUri>~/tenant/templates/AzureBlue/multifactor-1.0.0.cshtml</LoadUri>
-        <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
-        <DataUri>urn:com:microsoft:aad:b2c:elements:contract:multifactor:1.2.5</DataUri>
-        <Metadata>
-          <Item Key="DisplayName">Multi-factor authentication page</Item>
-        </Metadata>
-      </ContentDefinition>
-      <ContentDefinition Id="api.selfasserted">
-        <LoadUri>~/tenant/templates/AzureBlue/selfAsserted.cshtml</LoadUri>
-        <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
-        <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.1.7</DataUri>
-        <Metadata>
-          <Item Key="DisplayName">Collect information from user page</Item>
-        </Metadata>
-      </ContentDefinition>
-      <ContentDefinition Id="api.selfasserted.profileupdate">
-        <LoadUri>~/tenant/templates/AzureBlue/selfAsserted.cshtml</LoadUri>
-        <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
-        <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.1.7</DataUri>
-        <Metadata>
-          <Item Key="DisplayName">Collect information from user page</Item>
-        </Metadata>
-      </ContentDefinition>
-      <ContentDefinition Id="api.localaccountsignup">
-        <LoadUri>~/tenant/templates/AzureBlue/selfAsserted.cshtml</LoadUri>
-        <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
-        <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.1.7</DataUri>
-        <Metadata>
-          <Item Key="DisplayName">Local account sign up page</Item>
-        </Metadata>
-      </ContentDefinition>
       <ContentDefinition Id="api.localaccountpasswordreset">
         <LoadUri>https://pipsssaprod.blob.core.windows.net/b2c-custom-policy-files/reset-pw-{Culture:RFC5646}.html</LoadUri>
         <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
         <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.1.7</DataUri>
         <Metadata>
           <Item Key="DisplayName">Local account change password page</Item>
-        </Metadata>
-      </ContentDefinition>
-      <ContentDefinition Id="api.socialccountsignup">
-        <LoadUri>~/tenant/templates/AzureBlue/selfAsserted.cshtml</LoadUri>
-        <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
-        <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.1.7</DataUri>
-        <Metadata>
-          <Item Key="DisplayName">Collect information from user page</Item>
-        </Metadata>
-      </ContentDefinition>
-      <ContentDefinition Id="api.localaccountsignin">
-        <LoadUri>~/tenant/templates/AzureBlue/selfAsserted.cshtml</LoadUri>
-        <RecoveryUri>~/common/default_page_error.html</RecoveryUri>
-        <DataUri>urn:com:microsoft:aad:b2c:elements:contract:selfasserted:2.1.7</DataUri>
-        <Metadata>
-          <Item Key="DisplayName">Collect information from user page</Item>
         </Metadata>
       </ContentDefinition>
     </ContentDefinitions>
@@ -107,18 +25,6 @@
           <Metadata>
             <Item Key="ApplicationObjectId">598e2140-132d-45f6-81a0-a60193813239</Item>
             <Item Key="ClientId">c8cc99c7-01fc-4793-be32-54e8fc210b25</Item>
-          </Metadata>
-        </TechnicalProfile>
-      </TechnicalProfiles>
-    </ClaimsProvider>
-    <ClaimsProvider>
-      <DisplayName>Facebook</DisplayName>
-      <TechnicalProfiles>
-        <TechnicalProfile Id="Facebook-OAUTH">
-          <Metadata>
-            <Item Key="client_id">facebook_clientid</Item>
-            <Item Key="scope">email public_profile</Item>
-            <Item Key="ClaimsEndpoint">https://graph.facebook.com/me?fields=id,first_name,last_name,name,email</Item>
           </Metadata>
         </TechnicalProfile>
       </TechnicalProfiles>
